@@ -1,0 +1,44 @@
+body {
+    background-image: url(intrams_bg.png);
+	background-size: 100%;
+    font-family: "Rammetto One", sans-serif;
+}
+
+.navbar {
+    background-color: antiquewhite;
+    color: black;
+}
+
+.containerM {
+    background-color: antiquewhite;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.containerO {
+    background-color: antiquewhite;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.containerI {
+    background-color: antiquewhite;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer {
+    background-color: antiquewhite;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding: 18px;
+	text-align: center;
+    position: fixed;
+}
