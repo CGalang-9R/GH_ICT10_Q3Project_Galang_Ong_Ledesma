@@ -1,13 +1,8 @@
 from pyscript import document
 
 #  PLAYER DATA 
-players = ["(1) Agena, Vada ","(2) Ala, Zipporah Alvarado","(3) Baring, Jaiyanah ","(4) Baylon, Koby Martin Eusebio","(5) Brodhagen, Alexandria Dominic R.","(6) Cabatingan, Jade Louisse Castro",
-"Cañete, Tarcisius John Coballes",
-"Dimaculangan, Zakari Dwayne U.",
-"Evangelista, Dwayne Kyle Bolante",
-"Galang, Charlize Liana Maceda",
-"Garabiles, Shalanie Lanette Galvez",
-"Gonzales, Amanda Mathea ",
+players = ["(1) Agena, Vada ","(2) Ala, Zipporah Alvarado","(3) Baring, Jaiyanah ","(4) Baylon, Koby Martin Eusebio","(5) Brodhagen, Alexandria Dominic R.","(6) Cabatingan, Jade Louisse Castro","(6) Cañete, Tarcisius John Coballes","(7) Dimaculangan, Zakari Dwayne U.","(8) Evangelista, Dwayne Kyle Bolante","(9) Galang, Charlize Liana Maceda","(10) Garabiles, Shalanie Lanette Galvez",
+"(11) Gonzales, Amanda Mathea ",
 "Jamet, Frances Hailey Almoro",
 "Ledesma, Aisha Ashley Opallia",
 "Nacino, Samantha Gabrielle Dela Cruz",
