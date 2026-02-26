@@ -2,12 +2,12 @@ from pyscript import document
 
 # PLAYER DATA
 players = [
-    {"name": "Koby", "section": "RUBY"},
-    {"name": "Enzo", "section": "EMERALD"},
-    {"name": "Dwayne", "section": "SAPPHIRE"},
-    {"name": "Zak", "section": "TOPAZ"},
-    {"name": "David", "section": "RUBY"},
-    {"name": "Joaquin", "section": "EMERALD"}
+    {"name": "Koby", "section": },
+    {"name": "Enzo", "section": },
+    {"name": "Dwayne", "section": },
+    {"name": "Zak", "section": },
+    {"name": "David", "section": },
+    {"name": "Joaquin", "section": }
 ]
 
 # FUNCTION TO SHOW PLAYERS USING A LOOP
