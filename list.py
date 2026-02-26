@@ -1,7 +1,7 @@
 from pyscript import document
 
 #  PLAYER DATA 
-players = ["(1) Agena, Vada ","(2) Ala, Zipporah Alvarado","(3) Baring, Jaiyanah ","(4) Baylon, Koby Martin Eusebio","(5) Brodhagen, Alexandria Dominic R.","(6) Cabatingan, Jade Louisse Castro","(6) Cañete, Tarcisius John Coballes","(7) Dimaculangan, Zakari Dwayne U.","(8) Evangelista, Dwayne Kyle Bolante","(9) Galang, Charlize Liana Maceda","(10) Garabiles, Shalanie Lanette Galvez","(11) Gonzales, Amanda Mathea ","(12) Jamet, Frances Hailey Almoro","(13) Ledesma, Aisha Ashley Opallia","(14) Nacino, Samantha Gabrielle Dela Cruz","(15) Nardo, Kaitlyn Francesca Mandia","(16) Oliveros, Joaquin Rafael","(17) Olmedo, Cerinne Kimberlee ","(18) Ong, Raiden Bryce Chan","(19) Rebadulla, Samantha Erin ","(20) Reyes, David Miguel A.","(21) Sangreo, Vanna Marie  - Excused from Physical Activities","(22) Villafuerte, Lauren Mary ","(23) Villegas, Enzo Kelsey ","(24) Yao, Amanda Praise Kho",
+players = ["Agena, Vada ","Ala, Zipporah Alvarado","Baring, Jaiyanah ","Baylon, Koby Martin Eusebio","Brodhagen, Alexandria Dominic R.","Cabatingan, Jade Louisse Castro","Cañete, Tarcisius John Coballes","Dimaculangan, Zakari Dwayne U.","Evangelista, Dwayne Kyle Bolante","Galang, Charlize Liana Maceda","Garabiles, Shalanie Lanette Galvez","Gonzales, Amanda Mathea ","Jamet, Frances Hailey Almoro","Ledesma, Aisha Ashley Opallia","Nacino, Samantha Gabrielle Dela Cruz","Nardo, Kaitlyn Francesca Mandia","Oliveros, Joaquin Rafael","Olmedo, Cerinne Kimberlee ","Ong, Raiden Bryce Chan","Rebadulla, Samantha Erin ","Reyes, David Miguel A.","Sangreo, Vanna Marie  - Excused from Physical Activities","Villafuerte, Lauren Mary ","Villegas, Enzo Kelsey ","Yao, Amanda Praise Kho",
 
 
 ]
