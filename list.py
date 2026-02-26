@@ -8,15 +8,23 @@ players = [
     "Villegas",
     "Reyes",
     "Gonzales",
-     "Yao",
-      "Olmedo",
-      "Baring",
-      "Broadhagen",
-      "Canete",
-      "Kaitlyn",
-      "Vanna",
-      "jade",
+    "Yao",
+    "Olmedo",
+    "Baring",
+    "Broadhagen",
+    "Canete",
+    "Nardo",
+    "Sangreo",
+    "Cabatingan",
     "Shelaine",
+    "Jamet",
+    "Ledesma",
+    "Ala",
+    "Garabiles",
+    "Garabiles",
+    "Ajena",
+    
+    
 
 
 ]
