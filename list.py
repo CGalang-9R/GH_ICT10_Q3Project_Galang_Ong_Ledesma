@@ -13,6 +13,12 @@ players = [
       "Baring",
       "Broadhagen",
       "Canete",
+      "Kaitlyn",
+      "Vanna",
+      "jade",
+    "Shelaine",
+
+
 ]
 
 # FUNCTION TO SHOW PLAYERS 
