@@ -5,8 +5,7 @@ def signup_complete(e):
     username = document.querySelector('input[name="username"]').value
     email = document.querySelector('input[name="email"]').value
     password = document.querySelector('input[name="password"]').value
-    if username.strip() and email.strip() and "@" in email and password.strip()
-        if password > 7:
+    if username.strip() and email.strip() and "@" in email and password.strip() and password > 7:
         document.getElementById("output-login").innerHTML = ''
         display(f'''Is this information correct?
                 Username: {username}, Email: {email}
