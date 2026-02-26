@@ -5,8 +5,8 @@ def signup_complete(e):
     username = document.querySelector('input[name="username"]').value
     email = document.querySelector('input[name="email"]').value
     password = document.querySelector('input[name="password"]').value
-    alpha = pa.isalpha()
-    num = pa.isdigit()
+    alpha = password.isalpha()
+    num = password.isdigit()
     
     if username.strip() and email.strip() and "@" in email and password.strip() and len(password) >= 7 and len(username) >= 10 and alpha == False and num == True:
         document.getElementById("output-login").innerHTML = ''
