@@ -17,7 +17,7 @@ players = [
 
 # FUNCTION TO SHOW PLAYERS 
 def show_players(e=None):
-    """Generate a numbered player list dynamically."""
+
     
     html_list = "<h3>Player List</h3><ol class='list-group list-group-numbered'>"
     
