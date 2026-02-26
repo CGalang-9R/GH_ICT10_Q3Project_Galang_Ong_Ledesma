@@ -1,4 +1,4 @@
-from pyscript import document
+from pyscript import display, document
 
 # PLAYER DATA 
 players = [
