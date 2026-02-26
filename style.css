@@ -33,6 +33,14 @@ body {
     text-align: center;
 }
 
+.container1st {
+    background-color: antiquewhite;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
 .footer {
     background-color: antiquewhite;
 	left: 0;
