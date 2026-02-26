@@ -44,8 +44,5 @@ def show_players(e=None):
 
     document.getElementById("player-output").innerHTML = html_list
 
-    #  hide button after click
-    if e:
-        e.target.style.display = "none"
-        e.target.style.display = "none"
+   
 
