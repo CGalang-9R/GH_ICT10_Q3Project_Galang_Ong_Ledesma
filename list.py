@@ -1,7 +1,12 @@
 from pyscript import document
 
 #  PLAYER DATA 
-players = ["Zak", "Koby", "Dwayne", "Enzo", "David", "Joaquin"]
+players = ["Zak", 
+           "Koby", 
+           "Dwayne",
+           "Enzo", 
+           "David", 
+           "Joaquin"]
 
 # FUNCTION TO SHOW PLAYERS 
 def show_players(e=None):
