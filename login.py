@@ -8,11 +8,8 @@ def signup_complete(e):
     
     if username.strip() and email.strip() and "@" in email and password.strip() and len(password) > 7:
         document.getElementById("output-login").innerHTML = ''
-        display(f'''Use is succesfully logged in''', target='output-login')
+        display(f'''User is succesfully logged in''', target='output-login')
     else:
         document.getElementById("output-login").innerHTML = ''
-        display(f'''Please fill in all required fields correctly.
-                    1. All fields are required,
-                    2. Valid email,
-                    3. Password is ≥8 characters.''', target='output-login')
+        display(f'''Please fill in all required fields correctly. Username must be at least 7 characters long. Password must contain at least one letter and one number, and must be at least 10 characters long.''', target='output-login')
 #signup page end
