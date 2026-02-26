@@ -1,13 +1,7 @@
 from pyscript import document
 
 #  PLAYER DATA 
-players = [
-"Agena, Vada ",
-"Ala, Zipporah Alvarado",
-"Baring, Jaiyanah ",
-"Baylon, Koby Martin Eusebio",
-"Brodhagen, Alexandria Dominic R.",
-"Cabatingan, Jade Louisse Castro",
+players = ["(1) Agena, Vada ","(2) Ala, Zipporah Alvarado","(3) Baring, Jaiyanah ","(4) Baylon, Koby Martin Eusebio","(5) Brodhagen, Alexandria Dominic R.","(6) Cabatingan, Jade Louisse Castro",
 "Cañete, Tarcisius John Coballes",
 "Dimaculangan, Zakari Dwayne U.",
 "Evangelista, Dwayne Kyle Bolante",
