@@ -2,15 +2,15 @@ from pyscript import document
 
 #  PLAYER DATA 
 players = [
-    "Zak",
-    "Koby",
-    "Dwayne",
-    "Enzo",
-    "David",
-    "Amanda",
-     "yao",
-      "Cerrine",
-      "Jai",
+    "Dimaculangan",
+    "Baylon",
+    "Evangelista",
+    "Villegas",
+    "Reyes",
+    "Gonzales",
+     "Yao",
+      "Olmedo",
+      "Baring",
       "Broadhagen",
       "Canete",
 ]
