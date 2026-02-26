@@ -1,27 +1,29 @@
-from pyscript import display, document
+from pyscript import document
 
-# PLAYER DATA 
+# PLAYER DATA
 players = [
     {"name": "Koby", "section": "RUBY"},
-    {"name": "PlACE HOLDER NAME", "section": "EMERALD"},
-    {"name": "PlACE HOLDER NAME", "section": "SAPPHIRE"},
-    {"name": "PlACE HOLDER NAME", "section": "TOPAZ"},
-    {"name": "PlACE HOLDER NAME", "section": "RUBY"},
-    {"name": "PlACE HOLDER NAME", "section": "EMERALD"}
+    {"name": "Enzo", "section": "EMERALD"},
+    {"name": "Dwayne", "section": "SAPPHIRE"},
+    {"name": "Zak", "section": "TOPAZ"},
+    {"name": "David", "section": "RUBY"},
+    {"name": "Joaquin", "section": "EMERALD"}
 ]
 
-# FUNCTION TO SHOW PLAYERS 
-def show_players(e=None):
-    """Use a loop to generate the player list dynamically."""
-    html_list = "<h3>Player List</h3><ul class='list-group'>"
-    
-    for player in players:  # loop through each player
-        html_list += f"<li class='list-group-item'>{player['name']} - {player['section']}</li>"
-    
-    html_list += "</ul>"
+# FUNCTION TO SHOW PLAYERS USING A LOOP
+def show_players(event=None):
+    html = "<h3>Player List</h3>"
+    html += "<ul class='list-group'>"
 
-    document.getElementById("player-output").innerHTML = html_list
+    # LOOP through players with numbering
+    for index, player in enumerate(players, start=1):
+        html += f"<li class='list-group-item'>"
+        html += f"{index}. {player['name']} - {player['section']}"
+        html += "</li>"
 
-    # Optional: hide button after click
-    if e:
-        e.target.style.display = "none"
+    html += "</ul>"
+
+    document.getElementById("player-output").innerHTML = html
+
+    if event:
+        event.target.style.display = "none"
