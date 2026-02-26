@@ -21,7 +21,7 @@ players = [
     "Ledesma",
     "Ala",
     "Garabiles",
-    "Garabiles",
+    "Nacino",
     "Agena",
     
     
