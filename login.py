@@ -8,7 +8,7 @@ def signup_complete(e):
     alpha = password.isalpha()
     num = password.isdigit()
     
-    if username.strip() and email.strip() and "@" in email and password.strip() and len(password) >= 7 and len(username) >= 10 and alpha == False and num == True:
+    if username.strip() and email.strip() and "@" in email and password.strip() and len(password) >= 7 and len(username) >= 10 and alpha == False and num == False:
         document.getElementById("output-login").innerHTML = ''
         display(f'''User is succesfully logged in''', target='output-login')
     else:
