@@ -22,7 +22,7 @@ players = [
     "Ala",
     "Garabiles",
     "Garabiles",
-    "Ajena",
+    "Agena",
     
     
 
