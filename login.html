@@ -5,9 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css">
     <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
-    <title>Project Q3: Intramurals</title>
+    <title>Sign Up</title>
 </head>
 <body>
+    <!-- NAVBAR - GALANG -->
+    <nav class="navbar navbar-expand-sm mb-5">
+        <div class="container-fluid">
+                <a class="navbar-brand d-none d-md-flex">
+                    <img src="ob.png" alt="Logo" style="width:200px;">
+                </a>
+                <div class="container-fluid">
+                    <ul class="nav nav-tabs">
+
+                    <li>
+                        <a class="nav-link text-primary" href="index.html">Home</a>
+                    </li>
+
+                    <li>
+                        <a class="nav-link text-danger" href="login.html">Sign Up</a>
+                    </li>
+
+                    <li>
+                        <a class="nav-link text-warning" href="list.html">Clubs</a>
+                    </li>
+
+                    </ul>
+                </div>
+
+                <!-- DROPDOWN -->
+                <div class="dropdown d-md-none">
+                    <button class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">Menu</button>
+
+                    <ul class="dropdown-menu bg-danger" aria-labelledby="dropdownMenuButton">
+                        <li><a class="dropdown-item" data-bs-toggle="#home" href="index.html">HOME</a></li>
+                        <li><a class="dropdown-item" data-bs-toggle="#signup" href="login.html">SIGN UP PAGE</a></li>
+                        <li><a class="dropdown-item" data-bs-toggle="#list" href="list.html">LIST OF PLAYERS</a></li>
+                    </ul>
+                </div>
+                
+            <form class="d-flex">
+                    <input class="form-control me-2" type="text" placeholder="Search">
+                    <button class="btn btn-outline-primary" type="button">Search</button>
+            </form>
+        </div>
+    </nav>
+
+<!-- LOG IN - LEDESMA -->
     <form>
         <div id='1st'>
         <h1>LOG-IN</h1>
