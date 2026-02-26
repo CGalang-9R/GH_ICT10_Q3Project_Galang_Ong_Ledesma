@@ -1,29 +1,27 @@
 from pyscript import document
 
-# PLAYER DATA
+#  PLAYER DATA 
 players = [
-    {"name": "Koby", "section": },
-    {"name": "Enzo", "section": },
-    {"name": "Dwayne", "section": },
-    {"name": "Zak", "section": },
-    {"name": "David", "section": },
-    {"name": "Joaquin", "section": }
+    "Zak",
+    "Dwayne",
+    "Enzo",
+    "Joaquin",
+    "David",
+    "Koby"
 ]
 
-# FUNCTION TO SHOW PLAYERS USING A LOOP
-def show_players(event=None):
-    html = "<h3>Player List</h3>"
-    html += "<ul class='list-group'>"
+# FUNCTION TO SHOW PLAYERS 
+def show_players(e=None):
+    """Use a loop to generate the player list dynamically."""
+    html_list = "<h3>Player List</h3><ul class='list-group'>"
+    
+    for player in players:  # loop through each player
+        html_list += f"<li class='list-group-item'>{player}</li>"
+    
+    html_list += "</ul>"
 
-    # LOOP through players with numbering
-    for index, player in enumerate(players, start=1):
-        html += f"<li class='list-group-item'>"
-        html += f"{index}. {player['name']} - {player['section']}"
-        html += "</li>"
+    document.getElementById("player-output").innerHTML = html_list
 
-    html += "</ul>"
-
-    document.getElementById("player-output").innerHTML = html
-
-    if event:
-        event.target.style.display = "none"
+    # Optional: hide button after click
+    if e:
+        e.target.style.display = "none"
