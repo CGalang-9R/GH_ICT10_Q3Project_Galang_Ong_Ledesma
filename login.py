@@ -9,8 +9,7 @@ def signup_complete(e):
     if username.strip() and email.strip() and "@" in email and password.strip() and len(password) > 7:
         document.getElementById("output-login").innerHTML = ''
         display(f'''Is this information correct?
-                Username: {username}, Email: {email}
-                <input type="button" py-click="signup_confirm" value="Login">''', target='output-login')
+                Username: {username}, Email: {email}, Password: {password}''', target='output-login')
     else:
         document.getElementById("output-login").innerHTML = ''
         display(f'''Please fill in all required fields correctly.
