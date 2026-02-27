@@ -5,8 +5,9 @@ def intrams(e):
 
     reg = document.querySelector('input[name="registration"]:checked').value
     cle = document.querySelector('input[name="clearance"]:checked').value
-    gr = number(document.getElementById('grade').value)
+    grade = document.getElementById('grade').value
     sct = document.getElementById('section').value.upper()
+    gr = int(grade)
 
     if reg == 'No':
         display(f'Please register online to be able to join the Intramurals.', target='output')
