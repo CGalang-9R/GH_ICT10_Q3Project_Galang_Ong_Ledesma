@@ -14,7 +14,7 @@ def intrams(e):
     elif cle == 'No':
         display(f'Please get a medical clearance from the clinic to be able to join the Intramurals.', target='output')
 
-    elif gr > 10 or gr < 7
+    elif gr > 10 or gr < 7:
         display(f'Please enter JHS grade levels only.', target='output')
     
     elif sct == 'RUBY':
