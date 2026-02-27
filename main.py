@@ -5,7 +5,7 @@ def intrams(e):
 
     reg = document.querySelector('input[name="registration"]:checked').value
     cle = document.querySelector('input[name="clearance"]:checked').value
-    grade = document.getElementById('grade').value
+    gr = document.getElementById('grade').value
     sct = document.getElementById('section').value.upper()
     gr = int(grade)
 
