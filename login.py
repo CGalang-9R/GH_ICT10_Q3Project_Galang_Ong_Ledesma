@@ -22,4 +22,4 @@ def signup_complete(e):
         display(f'Your password must contain at least one letter.', target='output-login')
 
     else:
-        display(f'User is succesfully logged in', target='output-login')
+        display(f'User is succesfully logged in. Please proceed to the next section.', target='output-login')
