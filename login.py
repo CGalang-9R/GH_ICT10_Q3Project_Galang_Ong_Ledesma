@@ -8,7 +8,7 @@ def signup_complete(e):
     password = document.querySelector('input[name="password"]').value
     alpha = password.isalpha()
     num = password.isdigit()
-
+ 
     if len(username) < 7:
         display(f'Your username is too short. Please add more characters.', target='output-login')
     
