@@ -23,10 +23,3 @@ def signup_complete(e):
 
     else:
         display(f'User is succesfully logged in', target='output-login')
-
-document.getElementById('emailForm').addEventListener('submit', function(e) {
-    e.preventDefault();
-    const email = document.getElementById('email').value;
-    const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; // Simple Regex Check [9]
-    document.getElementById('result').innerText = regex.test(email) ? "Valid Syntax" : "Invalid Syntax";
-  });
